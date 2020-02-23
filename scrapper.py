@@ -57,6 +57,7 @@ PASSWORD = 'password to email here'
 
 
 # Checks price of item on Amazon using Selenium and geckodriver since there's javascript
+#NOTE: YOU MUST UPDATE executable_path for the webdriver 
 def checkprice():
     # it is possible to make firefox headless programmatically using selenium by below steps
     options = Options()
